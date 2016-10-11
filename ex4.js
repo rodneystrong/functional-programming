@@ -20,7 +20,7 @@ Array.prototype.map = function(projectionFunction) {
 		// Note: you can add items to an array with the push() method.
 		// ------------ INSERT CODE HERE! ----------------------------
 
-    
+    results.push(projectionFunction(itemInArray));
 
 	});
 
