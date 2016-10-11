@@ -47,5 +47,14 @@ function() {
   INSERT CODE HERE
 	 */
 
+  newRelease.forEach(function(item) {
+    videoAndTitlePairs.push(
+      {
+        id: item.id,
+        title: item.title
+      }
+    );
+  });
+
 	return videoAndTitlePairs;
 }
